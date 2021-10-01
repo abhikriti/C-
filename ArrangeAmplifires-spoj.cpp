@@ -36,8 +36,12 @@ template <typename T> T invFermat(T a, T p){return mod_exp(a, p-2, p);}
 template <typename T> T exp(T b, T p){T x = 1;while(p){if(p&1)x=(x*b);b=(b*b);p=p>>1;}return x;}
 
 int main(){
+// 	Starter Templates
+	int t;
+	cin>>t;
 	
-	
+	while(t--){
+	}
 
 	return 0;
 }
